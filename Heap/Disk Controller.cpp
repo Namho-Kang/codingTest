@@ -32,6 +32,7 @@ int solution(vector<vector<int>> jobs) {
                     iIndex = i;
                 }
             }
+			else break;
         }
 
         if (iIndex == -1)
